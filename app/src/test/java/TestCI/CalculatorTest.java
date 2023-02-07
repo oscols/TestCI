@@ -15,7 +15,7 @@ public class CalculatorTest {
     public void valueFiveWhenFiveAdded() {
         Calculator calculator = new Calculator();
         calculator.add(5);
-        assertEquals(4, calculator.getValue());
+        assertEquals(5, calculator.getValue());
     }
 
     @Test
