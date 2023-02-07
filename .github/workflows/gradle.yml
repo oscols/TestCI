@@ -17,3 +17,4 @@ jobs:
           cache: gradle
       - name: Build with Gradle
         run: ./gradlew build --scan --no-daemon
+        # TEST
