@@ -24,4 +24,12 @@ public class CalculatorTest {
         calculator.subtract(2);
         assertEquals(-2, calculator.getValue());
     }
+
+    @Test
+    public void valueDoubledTwoWhenTimesTwo() {
+        Calculator calculator = new Calculator();
+        calculator.add(2);
+        calculator.multiplication(2);
+        assertEquals(4, calculator.getValue());
+    }
 }
