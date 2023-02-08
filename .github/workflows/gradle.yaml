@@ -6,7 +6,7 @@ on:
     branches: [main]
 jobs:
   build-gradle-project:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     steps:
       - uses: actions/checkout@v3
       - name: Set up JDK 17
@@ -17,4 +17,3 @@ jobs:
           cache: gradle
       - name: Build with Gradle
         run: ./gradlew build --scan --no-daemon
-        # TEST
