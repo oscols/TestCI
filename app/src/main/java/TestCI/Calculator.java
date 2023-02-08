@@ -17,7 +17,7 @@ public class Calculator {
     }
 
     public void multiplication(int number) {
-        this.value = this.value*number; // That
+        this.value = this.value*number;
     }
 
     public int getValue() {
