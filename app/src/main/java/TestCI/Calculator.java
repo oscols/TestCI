@@ -18,6 +18,5 @@ public class Calculator {
 
     public int getValue() {
         return this.value;
-        
     }
 }
